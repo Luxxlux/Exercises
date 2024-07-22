@@ -3,7 +3,7 @@
 # the method will return the given str, but with all the specified first chr,
 # replaced by the second
 
-# exemple :
+# example :
 test = "aaaa bbbb cccc"
 # result = replace_char(test, ' ', 'X')
 # gives us : "aaaaXbbbbXcccc"
