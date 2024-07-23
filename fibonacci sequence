@@ -1,0 +1,36 @@
+# def print_fibonacci_up_to_limit(limit: int):
+---- start of exercise ----
+
+
+
+
+
+def fibo_with_limit(limit: int):
+    result = []
+    a, b, = 0,1
+    while a < limit:
+        result.append(a)
+        a,b = b, a+b
+    print(result)
+
+
+f = fibo_with_limit
+
+f(100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
